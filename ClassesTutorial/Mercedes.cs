@@ -4,13 +4,16 @@ namespace ClassesTutorial
 {
     public class Mercedes : AbstractCar
     {
-        public string description;
-        public int price;
+        private string _description;
+        private int _price;
+
+        public string Description { get { return _description; } set { _description = value; } }
+        public int Price { get { return _price; } set { _price = value; } }
 
         public Mercedes()
         {
-            description = "E Class";
-            price = 67000;
+            Description = "E Class";
+            Price = 67000;
         }
     }
 }

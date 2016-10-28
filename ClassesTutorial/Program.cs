@@ -15,8 +15,8 @@ namespace ClassesTutorial
             AbstractCar car2 = new Mercedes();
 
             Mercedes mercedesEx7 = new Mercedes();
-            Console.WriteLine("Mercedes is " + mercedesEx7.description);
-            Console.WriteLine("Mercedes costs " + mercedesEx7.price);
+            Console.WriteLine("Mercedes is " + mercedesEx7.Description);
+            Console.WriteLine("Mercedes costs " + mercedesEx7.Price);
 
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
