@@ -8,6 +8,8 @@ namespace ClassesTutorial
         private int counter;
         private int _price;
 
+        public static int counter2;
+
         internal string Description { get { return _description; } set { _description = value; } }
         internal int Price { get { return _price; } set { _price = value; } }
 
@@ -55,6 +57,16 @@ namespace ClassesTutorial
             }
 
             PrintMercedesLogo();
+        }
+
+        public void PrintNewMercedes(int c)
+        {
+            if (c == 3)
+            {
+                return;
+            }
+
+            Console.WriteLine($"Mercedes no. = {c}");
         }
     }
 }

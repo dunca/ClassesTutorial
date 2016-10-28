@@ -38,6 +38,18 @@ namespace ClassesTutorial
             var mercedes3x = new Mercedes();
             mercedes3x.PrintMercedesLogo();
 
+            var m1 = new Mercedes();
+            m1.PrintNewMercedes(Mercedes.counter2++);
+
+            var m2 = new Mercedes();
+            m2.PrintNewMercedes(Mercedes.counter2++);
+
+            var m3 = new Mercedes();
+            m3.PrintNewMercedes(Mercedes.counter2++);
+
+            var m4 = new Mercedes();
+            m4.PrintNewMercedes(Mercedes.counter2++);
+
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
         }
