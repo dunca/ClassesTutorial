@@ -24,7 +24,7 @@ namespace ClassesTutorial
             return "Engine started";
         }
 
-        public int ShowRemainingNoOfKM(int noOfFuelLiters, int consumption)
+        public double ShowRemainingNoOfKM(double noOfFuelLiters, double consumption)
         {
             return noOfFuelLiters / consumption * 100;
         }
