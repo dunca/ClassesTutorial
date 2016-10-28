@@ -21,6 +21,9 @@ namespace ClassesTutorial
             var mercedes31 = new Mercedes();
             mercedes31.StartEngine();
 
+            var mercedes32 = new Mercedes();
+            mercedes.ShowRemainingNoOfKM(10, 5);
+
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
         }
