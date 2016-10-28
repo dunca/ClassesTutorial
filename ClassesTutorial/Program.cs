@@ -18,6 +18,9 @@ namespace ClassesTutorial
             Console.WriteLine("Mercedes is " + mercedesEx7.Description);
             Console.WriteLine("Mercedes costs " + mercedesEx7.Price);
 
+            var mercedes31 = new Mercedes();
+            mercedes31.StartEngine();
+
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
         }

@@ -15,5 +15,10 @@ namespace ClassesTutorial
             Description = "E Class";
             Price = 67000;
         }
+
+        public void StartEngine()
+        {
+            Console.WriteLine("Engine started");
+        }
     }
 }
