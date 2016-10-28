@@ -4,5 +4,9 @@ namespace ClassesTutorial
 {
     public class Mercedes : AbstractCar
     {
+        public Mercedes()
+        {
+
+        }
     }
 }
