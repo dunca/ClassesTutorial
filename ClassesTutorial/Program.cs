@@ -35,6 +35,9 @@ namespace ClassesTutorial
 
             Console.WriteLine(FizzBuzz.GetFizzBuzz(15));
 
+            var mercedes3x = new Mercedes();
+            mercedes3x.PrintMercedesLogo();
+
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
         }

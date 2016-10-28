@@ -5,6 +5,7 @@ namespace ClassesTutorial
     internal class Mercedes : AbstractCar
     {
         private string _description;
+        private int counter;
         private int _price;
 
         internal string Description { get { return _description; } set { _description = value; } }
@@ -41,6 +42,19 @@ namespace ClassesTutorial
             }
 
             return sum / 100 * 7;
+        }
+
+        public void PrintMercedesLogo()
+        {
+            Console.WriteLine("This is the logo");
+            counter++;
+
+            if (counter == 3)
+            {
+                return;
+            }
+
+            PrintMercedesLogo();
         }
     }
 }
