@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AbstractCar.cs" />
     <Compile Include="EngineStruct.cs" />
+    <Compile Include="FizzBuzz.cs" />
     <Compile Include="ICar.cs" />
     <Compile Include="Mercedes.cs" />
     <Compile Include="Program.cs" />

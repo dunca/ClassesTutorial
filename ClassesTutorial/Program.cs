@@ -33,6 +33,8 @@ namespace ClassesTutorial
 
             Console.WriteLine(mercedes34.CalculateConsumption(1, 2, 3, 4, 5, 6));
 
+            Console.WriteLine(FizzBuzz.GetFizzBuzz(15));
+
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
         }
