@@ -28,6 +28,11 @@ namespace ClassesTutorial
             Console.WriteLine(mercedes33.StartEngine());
             Console.WriteLine(mercedes.ShowRemainingNoOfKM(10, 5));
 
+            var mercedes34 = new Mercedes();
+            Console.WriteLine(mercedes34.StartEngine(100));
+
+            Console.WriteLine(mercedes34.CalculateConsumption(1, 2, 3, 4, 5, 6));
+
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
         }
