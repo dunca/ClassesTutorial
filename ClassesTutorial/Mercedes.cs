@@ -2,7 +2,7 @@
 
 namespace ClassesTutorial
 {
-    public class Mercedes
+    public class Mercedes : AbstractCar
     {
     }
 }

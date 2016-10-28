@@ -2,7 +2,7 @@
 
 namespace ClassesTutorial
 {
-    public abstract class AbstractCar
+    public abstract class AbstractCar : ICar
     {
     }
 }
