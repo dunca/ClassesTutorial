@@ -16,14 +16,14 @@ namespace ClassesTutorial
             Price = 67000;
         }
 
-        public void StartEngine()
+        public string StartEngine()
         {
-            Console.WriteLine("Engine started");
+            return "Engine started";
         }
 
-        public void ShowRemainingNoOfKM(int noOfFuelLiters, int consumption)
+        public int ShowRemainingNoOfKM(int noOfFuelLiters, int consumption)
         {
-            Console.WriteLine("Remaining km: " + noOfFuelLiters / consumption * 100);
+            return noOfFuelLiters / consumption * 100;
         }
     }
 }
