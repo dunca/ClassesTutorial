@@ -10,7 +10,7 @@ namespace ClassesTutorial
     {
         string color;
 
-        public int GetCalories()
+        public override int GetCalories()
         {
             return 2;
         }

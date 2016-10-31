@@ -8,7 +8,7 @@ namespace ClassesTutorial
 {
     class Ionatan : Apple
     {
-        public int GetCalories()
+        public override int GetCalories()
         {
             return 3;
         }

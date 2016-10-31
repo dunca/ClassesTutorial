@@ -16,7 +16,7 @@ namespace ClassesTutorial
 
         int fibres;
 
-        public int GetCalories()
+        public virtual int GetCalories()
         {
             return 1;
         }
