@@ -52,6 +52,7 @@ namespace ClassesTutorial
 
             Audi a = new Audi();
             Console.WriteLine(a.CarStart());
+            Console.WriteLine(a.Vitezometru(2));
 
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
