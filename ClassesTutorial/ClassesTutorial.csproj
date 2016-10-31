@@ -50,6 +50,7 @@
     <Compile Include="EngineStruct.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Fruit.cs" />
+    <Compile Include="FruitBasket.cs" />
     <Compile Include="ICar.cs" />
     <Compile Include="Ionatan.cs" />
     <Compile Include="Mercedes.cs" />

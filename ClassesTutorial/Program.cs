@@ -68,6 +68,12 @@ namespace ClassesTutorial
 
             Console.WriteLine(string.Join("\n", ionatan.GetCalories(), ionatan2.GetCalories(), ionatan3.GetCalories()));
 
+            FruitBasket cos = new FruitBasket();
+            cos.AddFruit(new Ionatan());
+            cos.AddFruit(new Apple());
+            cos.AddFruit(new Fruit());
+            cos.DisplayFruitCalories();
+
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
         }
