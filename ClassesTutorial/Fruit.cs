@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassesTutorial
 {
-    class Fruit
+    public class Fruit
     {
         int fibres;
 
