@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassesTutorial
 {
-    class Car
+    abstract class Car
     {
         public string CarStart()
         {
