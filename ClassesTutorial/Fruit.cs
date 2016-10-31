@@ -8,6 +8,12 @@ namespace ClassesTutorial
 {
     public class Fruit
     {
+
+        private class Sambure
+        {
+
+        }
+
         int fibres;
 
         public int GetCalories()
