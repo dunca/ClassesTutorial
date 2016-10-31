@@ -50,6 +50,9 @@ namespace ClassesTutorial
             var m4 = new Mercedes();
             m4.PrintNewMercedes(Mercedes.counter2++);
 
+            Audi a = new Audi();
+            Console.WriteLine(a.CarStart());
+
             Console.WriteLine("This is my first C# project!");
             Console.ReadKey();
         }
